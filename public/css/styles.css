@@ -54,7 +54,7 @@ article{
     width: 100%;
 
 }
-section article div i{
+section article i{
     display: block;
     font-size: 16px;
     padding: 5px;
@@ -64,16 +64,18 @@ section article div i{
     border: solid 1px #39b54a;;
     background-color: #fff; 
     border-radius: 50%;
-    
+    position: absolute;
     right: 20px;
     top:-15px 
     
     
 }
+
 .descripcion{
     background-color: white;
     width: 100%;
     padding: 10px;
+    position: relative;
 
 }
 @media (max-width:361px){
@@ -247,7 +249,6 @@ body{
     }
 }
 .pd{
-    border: red solid 2px;
     display: flex;
     align-items: center;
     justify-content: space-around;
