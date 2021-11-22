@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+}
+input{
+    border-radius: 5px;
+    margin: 5px;
+}
+::placeholder{
+    padding: 5px;
+    font-style: italic;
+    opacity: 60%;
+}
+.botones{
+    margin-left: 20%;
+}
+form{
+    padding: 5px;
+}
+.control label{
+    display: block;
+}

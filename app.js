@@ -18,6 +18,9 @@ app.get ("/",(req,res)=>{
 app.get ("/formulario",(req,res)=>{
     res.sendFile(path.join(__dirname,"/views/formulario.html"))
 })
+app.get ("/login",(req,res)=>{
+    res.sendFile(path.join(__dirname,"/views/login.html"))
+})
 
 // app.post("/formulario",(req,res))=>{
 //     res.redirect("/");
